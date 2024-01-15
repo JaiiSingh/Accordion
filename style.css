@@ -9,13 +9,12 @@ body{
     text-align: center;
 }
 .accordion-box{
-/* background-color: green; */
+
 max-width: 50%;
 margin: 0% auto;
 position: relative;
 top: 20vh;
-/* max-height: 8vw;
-overflow: hidden; */
+
 }
 .accordion-list-header{
     display: flex;
@@ -26,6 +25,7 @@ overflow: hidden; */
     width: 100%;
     border: 1px solid black;
     border-top: none;
+    cursor: pointer;
 }
 .accordion-list-header:first-child{
     border-top: 1px solid black;
@@ -46,7 +46,5 @@ overflow: hidden; */
     overflow: hidden;
     height: 100%;
 }
-/* .active{
-     /*is active  
-} */
+
 
